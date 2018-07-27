@@ -9,14 +9,5 @@ list2 = random.sample(range(1, 13), 6)
 print(list1)
 print(list2)
 
-# list3 = []
-
-# for list1[i] in list1 :
-#     if list1[i] in list2 :
-#         if list1[i] not in list3 :
-#             list3.append(list1[i])
-
-# print(list3)
-
 list4 = [i for i in set(list1) if i in list2]
 result = print([i for i in list4 if list4.count(i) == 1])
