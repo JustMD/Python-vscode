@@ -1,11 +1,10 @@
 import random
 
-a = [4, 5, 6, 7, 8, 9]
-b = []
-i = 0
+a = random.sample(range(1, 12), 8)
 
-for i in a:
-    b.append(a[0:6])
+
+def end_list(a_list) :
+    return a_list[0], a_list[len(a_list) - 1]
 
 print(a)
-print(b)
+print(end_list(a))
